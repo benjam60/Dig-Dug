@@ -1,0 +1,90 @@
+/* Main Containers */
+body{
+  background: white;
+}
+.super-container{
+    height: 570px;
+    width: 480px;
+}
+
+.outer-container {
+  height: 570px;
+  width: 625px;
+  background: #eee;
+  border: 5px solid #ccc;
+  display: inline-block;
+}
+.main-screen {
+  height: 100%;
+  visibility: visible;
+  position: relative;
+
+}
+.game-window {
+  height: 100%;
+  width: 480;
+  background: black;
+  float: left;
+}
+
+.score-window{
+  text-align: center;
+  color: red;
+}
+
+#img-digdug-mainscreen {
+    display: block;
+    margin: 20 auto;
+}
+
+/*IDs*/
+#start-button {
+  margin:auto;
+  display:block;
+}
+#options-button {
+  margin:auto;
+  display:block;
+}
+
+#smurf{
+  position: absolute;
+  z-index: 7;
+}
+.tunnelclass { 
+  z-index:5;
+  position: absolute;
+}
+
+.blocks{
+  position: absolute;
+  z-index: 4;
+  /*margin-top: 33px; //73
+  margin-left: 13px;*/
+}
+.dragonclass {
+  position: absolute;
+  z-index: 7;
+}
+.pookaclass {
+  position: absolute;
+  z-index: 7;
+}
+.rockclass {
+  position: absolute;
+  z-index: 7;
+}
+
+.bulletClass { 
+  position: absolute;
+  z-index: 6;
+}
+
+#game-screen{
+
+
+
+/*  margin-top: 30px;
+  margin-left: 30px;*/
+
+}
