@@ -1,2 +1,2 @@
 # 493DigDug
-# Dig-Dug
+Make the classic arcade game for the web.
